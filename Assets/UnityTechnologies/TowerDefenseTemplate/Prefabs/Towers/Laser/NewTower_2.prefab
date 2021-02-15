@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 567301478587556926}
   - component: {fileID: 452381863286970306}
   - component: {fileID: 451613520654064522}
-  - component: {fileID: 3727735236887364246}
-  - component: {fileID: 1201574210194170894}
   - component: {fileID: 3326998231749680226}
   - component: {fileID: 5574178305323117715}
   m_Layer: 10
@@ -72,47 +70,6 @@ MonoBehaviour:
   randomAudioSource: {fileID: 453082970876623046}
   towerTargetter: {fileID: 451621212106115236}
   radiusEffectColor: {r: 0, g: 1, b: 1, a: 0.09803922}
---- !u!114 &3727735236887364246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563638591129525462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e4035901ee40bba7c0866d2c6338a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turret: {fileID: 0}
-  turretXRotationRange: {x: 0, y: 359}
-  onlyYTurretRotation: 0
-  searchRate: 0
-  idleRotationSpeed: 39
-  idleCorrectionTime: 2
-  attachedCollider: {fileID: 0}
-  idleWaitTime: 2
---- !u!114 &1201574210194170894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563638591129525462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dfe94c3cd6432db9993a2305627462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: 
-  radiusEffectColor: {r: 0, g: 0, b: 0, a: 0}
-  towerTargetter: {fileID: 0}
-  slowFactor: 0.75
-  slowFactorFormat: <b>Slow Factor:</b> {0}
-  enterParticleSystem: {fileID: 0}
-  slowFxPrefab: {fileID: 1202038136039314, guid: 2a2145ba402264aca9c0deb7d222e5bc,
-    type: 3}
-  audioSource: {fileID: 0}
 --- !u!135 &3326998231749680226
 SphereCollider:
   m_ObjectHideFlags: 0

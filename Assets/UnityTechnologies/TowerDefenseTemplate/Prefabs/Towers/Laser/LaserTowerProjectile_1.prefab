@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7745920637743026605}
   - component: {fileID: 7745920637743026604}
   - component: {fileID: 7745920637743026606}
+  - component: {fileID: -4480787124685529247}
   m_Layer: 0
   m_Name: LaserTowerProjectile_1
   m_TagString: Untagged
@@ -30,8 +31,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7745920637743026646}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4557023, y: 0.2637679, z: -0.8335587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,7 +52,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 12
   chanceToSpawnCollisionPrefab: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 198278080792148898, guid: aeef7b8d79b23415c9c75f54ec09a598,
+    type: 3}
   alignment:
     unityObjectReference: {fileID: 11400000, guid: 2e20cdb38c63f4edf8ee385c50c089ce,
       type: 2}
@@ -67,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e88b5a37d2f4bc1ad6d6414117ed141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.5
+  delay: 0
 --- !u!54 &7745920637743026603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -97,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arcPreference: 0
-  fireMode: 0
+  fireMode: 1
   firingAngle: 0
   startSpeed: 0
   collisionIgnoreTime: 0.35
@@ -147,3 +149,16 @@ MonoBehaviour:
     m_Bits: 4294967295
   alignment:
     unityObjectReference: {fileID: 0}
+--- !u!114 &-4480787124685529247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745920637743026646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d007c1fe5e41c1888e4af3392f8676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialPoolCapacity: 10

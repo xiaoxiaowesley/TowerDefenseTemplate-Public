@@ -24146,8 +24146,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7229239649655558874}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4557023, y: 0.2637679, z: -0.8335587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7231212887929758412}
@@ -38753,8 +38753,6 @@ GameObject:
   - component: {fileID: 7231212887929758412}
   - component: {fileID: 7331892138201038764}
   - component: {fileID: 7335707004449192504}
-  - component: {fileID: 3643888736525975156}
-  - component: {fileID: 6453685012050734455}
   - component: {fileID: 8371830176043378975}
   - component: {fileID: 3133930926347212255}
   m_Layer: 10
@@ -38814,47 +38812,6 @@ MonoBehaviour:
   randomAudioSource: {fileID: 7335689387019950690}
   towerTargetter: {fileID: 7332090290653360226}
   radiusEffectColor: {r: 0, g: 1, b: 1, a: 0.09803922}
---- !u!114 &3643888736525975156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7230079310808171766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e4035901ee40bba7c0866d2c6338a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turret: {fileID: 0}
-  turretXRotationRange: {x: 0, y: 359}
-  onlyYTurretRotation: 0
-  searchRate: 0
-  idleRotationSpeed: 39
-  idleCorrectionTime: 2
-  attachedCollider: {fileID: 0}
-  idleWaitTime: 2
---- !u!114 &6453685012050734455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7230079310808171766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dfe94c3cd6432db9993a2305627462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: 
-  radiusEffectColor: {r: 0, g: 0, b: 0, a: 0}
-  towerTargetter: {fileID: 0}
-  slowFactor: 0.75
-  slowFactorFormat: <b>Slow Factor:</b> {0}
-  enterParticleSystem: {fileID: 0}
-  slowFxPrefab: {fileID: 1202038136039314, guid: 2a2145ba402264aca9c0deb7d222e5bc,
-    type: 3}
-  audioSource: {fileID: 0}
 --- !u!135 &8371830176043378975
 SphereCollider:
   m_ObjectHideFlags: 0
