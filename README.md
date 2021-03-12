@@ -9,6 +9,6 @@ https://learn.unity.com/project/tower-defense-template
   
 https://assetstore.unity.com/packages/essentials/tutorial-projects/tower-defense-template-107692  
   
-Unity m_EditorVersion:  2020.2.7f1  
+Unity m_EditorVersion:  2020.3.0f1  
   
   
